@@ -1,0 +1,25 @@
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+.container img{
+    position: relative;
+    z-index: -1;
+    width: 260px;
+    height: 300px;
+}
+.container .text{
+    background-image: radial-gradient(gray, transparent);
+    font-size: 1.5em;
+    position: relative;
+    color: white;
+    bottom: 90px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
